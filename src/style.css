@@ -1,0 +1,44 @@
+/* Professional Porfolio Styling */
+
+.image_format{
+  border-radius: 1px;
+  height:auto;
+  max-width:100px;
+}
+
+.button_format{
+  margin-top: 7%;
+}
+
+.about_image_format{
+  margin-top:5%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:80%;
+}
+
+.about_image_format2{
+  margin-top:5%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:90%;
+}
+.about_image_format3{
+  margin-top:5%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:99%;
+}
+.button_project_format{
+  margin-top: 1%;
+}
+/* Display for the phone*/
+@media screen and (max-width: 850px){
+  .image_format{
+    display:none;
+  }
+  
+}
