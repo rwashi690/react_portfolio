@@ -11,17 +11,16 @@ import cinemagic from "./images/project4.jpeg";
 import urbandict from "./images/project1.jpg";
 import codequiz from "./images/project3.jpeg";
 
-
 function App() {
   return (
-    <div>
+    <div className="d-inline">
       <div className="p-5 mb-4 bg-light rounded-3">
         <div className="row">
           <div className="col-lg-">
             <div className="row">
               <div className="col">
                 <img
-                  className="image_format img-responsive float-start"
+                  className="img-responsive image_format float-start"
                   src={portfolio_pic}
                   alt="Rachel smiling with her hair in a bun against a brick wall"
                 />
@@ -57,58 +56,81 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="row">
-    <div class="card col text-center" >
-        <img class="card-img-top about_image_format" src={road} alt="Green forrest surrounding a winding road"/>
-        <div class="card-body">
-            <a class="card-text btn btn-success btn-lg btn-block"  href="./codingjourney.html" >Coding Journey</a>
-        </div>
-    </div>
-
-    <div class="card col text-center" >
-        <img class="card-img-top about_image_format2" src={graduation_cap} alt="A blue graduation cap with a yellow tassel"/>
-        <div class="card-body">
-            <a class="card-text btn btn-warning btn-lg btn-block"  href="./education.html">Education and Awards</a>
-        </div>
-    </div>
-
-    <div class="card col text-center" >
-        <img class="card-img-top about_image_format3" src={graphene} alt="A sheet of graphene with an iron atom embedded in the structure"/>
-        <div class="card-body">
-            <a class="card-text btn btn-primary btn-lg btn-block"  href="./thesis.html">Masters of Science</a>
-        </div>
-    </div>
-</div>
-      <div class="card col-l border-info mb-3">
-        <h5 class="card-header">Cinemagic</h5>
-        <div class="card-body">
+      <div className="row">
+        <div className="card col text-center">
           <img
-            class="card-img"
+            className="card-img-top about_image_format"
+            src={road}
+            alt="Green forrest surrounding a winding road"
+          />
+          <div className="card-body">
+            <a
+              className="card-text btn btn-success btn-lg btn-block"
+              href="./codingjourney.html"
+            >
+              Coding Journey
+            </a>
+          </div>
+        </div>
+
+        <div className="card col text-center">
+          <img
+            className="card-img-top about_image_format2"
+            src={graduation_cap}
+            alt="A blue graduation cap with a yellow tassel"
+          />
+          <div className="card-body">
+            <a
+              className="card-text btn btn-warning btn-lg btn-block"
+              href="./education.html"
+            >
+              Education and Awards
+            </a>
+          </div>
+        </div>
+
+        <div className="card col text-center">
+          <img
+            className="card-img-top about_image_format3"
+            src={graphene}
+            alt="A sheet of graphene with an iron atom embedded in the structure"
+          />
+          <div className="card-body">
+            <a
+              className="card-text btn btn-primary btn-lg btn-block"
+              href="./thesis.html"
+            >
+              Masters of Science
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="card col-l border-info mb-3">
+        <h5 className="card-header">Cinemagic</h5>
+        <div className="card-body">
+          <img
+            className="card-img"
             src={cinemagic}
             alt="Film reel across the screen"
           />
           <a
             href="https://cinemajik.herokuapp.com/"
-            class="btn btn-info float-right button_project_format"
+            className="btn btn-info float-right button_project_format"
           >
             Visit Project
           </a>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card border-info mb-3">
-            <h5 class="card-header">Ultimate Urban Dictionary</h5>
-            <div class="card-body">
-              <img
-                class="card-img"
-                src={urbandict}
-                alt="Books in a line"
-              />
+      <div className="row">
+        <div className="col-sm-6">
+          <div className="card border-info mb-3">
+            <h5 className="card-header">Ultimate Urban Dictionary</h5>
+            <div className="card-body">
+              <img className="card-img" src={urbandict} alt="Books in a line" />
               <a
                 href="https://rwashi690.github.io/Urban_Dictionary_and_Memes/"
-                class="btn btn-info float-right button_project_format"
+                className="btn btn-info float-right button_project_format"
               >
                 Visit Project
               </a>
@@ -116,18 +138,14 @@ function App() {
           </div>
         </div>
 
-        <div class="col-sm-6">
-          <div class="card border-info mb-3">
-            <h5 class="card-header">Coding Quiz</h5>
-            <div class="card-body">
-              <img
-                class="card-img"
-                src={codequiz}
-                alt="Question Mark"
-              />
+        <div className="col-sm-6">
+          <div className="card border-info mb-3">
+            <h5 className="card-header">Coding Quiz</h5>
+            <div className="card-body">
+              <img className="card-img" src={codequiz} alt="Question Mark" />
               <a
                 href="https://rwashi690.github.io/Coding-Quiz/"
-                class="btn btn-info float-right button_project_format"
+                className="btn btn-info float-right button_project_format"
               >
                 Visit Project
               </a>
