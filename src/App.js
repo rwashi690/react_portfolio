@@ -10,6 +10,7 @@ import graphene from "./images/graphene_Fe.png";
 import cinemagic from "./images/project4.jpeg";
 import urbandict from "./images/project1.jpg";
 import codequiz from "./images/project3.jpeg";
+import CV from "./images/RachWashington_UpdatedCV.pdf";
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
               </a>
               <a
                 className="btn col ms-2  btn-outline-dark"
-                href="./RachWashington_UpdatedCV.pdf"
+                href={CV}
                 role="button"
               >
                 CV
